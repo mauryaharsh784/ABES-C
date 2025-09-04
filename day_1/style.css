@@ -6,3 +6,17 @@ td{
     background-color:navajowhite ;
     text-align: center;
 }
+.day1{
+    background-color: aqua;
+
+}
+body{
+    height: 100px;
+    width: 800px;
+}
+.day2{
+    background-color: brown;
+}
+.sub{
+    background-color: darkorange;
+}
