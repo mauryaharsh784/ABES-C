@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+        <!-- React will render content here -->
+    </div>
+    <script>
+        // const root = document.getElementById('root');
+        // console.log(root);
+        // // root.innerHTML = '<h1>Hello, React!</h1>';
+        // const divElement = document.createElement('div');
+        // divElement.innerHTML = '<h1>Hello, React!</h1>';
+        // root.appendChild(divElement);
+
+        
+
+    </script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script>
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+       const divElement = React.createElement('div', null, 
+            React.createElement('h1', null, 'Hello, React!')    
+        );
+        root.render(divElement); 
+        
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
